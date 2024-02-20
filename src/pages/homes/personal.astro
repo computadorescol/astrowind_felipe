@@ -25,7 +25,7 @@ const metadata = {
         { text: 'Resume', href: '#resume' },
         { text: 'Porfolio', href: '#porfolio' },
         { text: 'Blog', href: '#blog' },
-        { text: 'Github', href: 'https://github.com/onwidget' },
+        
       ]}
       actions={[
         {
@@ -42,7 +42,7 @@ const metadata = {
 
   <Hero
     id="hero"
-    title="Veronica De La Torre "
+    title="Veronica De La Torre  "
     tagline="Personal Web Demo"
     actions={[{ variant: "primary", target: '_blank', text: 'Hire me', href: '/' }]}
   >
@@ -85,14 +85,14 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-      alt: 'Colorful Image',
+      src: 'https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: ' Colorful Image',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">About me</h3>
-      <p>
-        Welcome to my creative journey. My work is a testament to my commitment to bringing ideas to life, where each
+      <a href=https://www.youtube.com/shorts/vyyZiReHlt4?feature=share>ver mi video en  IA</a>
+        <p>Welcome to my creative journey. My work is a testament to my commitment to bringing ideas to life, where each
         pixel becomes a brushstroke in the canvas of imagination.
       </p>
       <br />
@@ -102,6 +102,20 @@ const metadata = {
       </p>
       <br />
       <p>If you're curious to dive deeper into my work, you can follow me:</p>
+    </Fragment>
+    <Fragment slot="image">
+      <div class="relative h-0 pb-[56.25%]">
+        <iframe
+          width="260"
+          height="115"
+          src="https://www.youtube.com/embed/dsTXcSeAZq8"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+          allowfullscreen
+          class="absolute top-0 left-0 w-full h-full"
+        >
+        </iframe>
+      </div>
     </Fragment>
 
     <Fragment slot="bg">
